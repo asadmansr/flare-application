@@ -4,9 +4,9 @@
 <dict>
     <key>Label</key>
     <string>com.flareapp.startjob</string>
-    <key>Program</key>
+    <key>ProgramArguments</key>
     <array>
-        <string>/Users/asadmansoor/Desktop/FlareApp/run.sh</string>
+        <string>/Application/FlareApp/run.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>
@@ -14,7 +14,7 @@
             <key>Hour</key>
             <integer>9</integer>
             <key>Minute</key>
-            <integer>0</integer>
+            <integer>20</integer>
         </dict>
         <dict>
             <key>Hour</key>

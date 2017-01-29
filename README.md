@@ -2,9 +2,11 @@
 
 Flare monitors the content of a specific element on a website and alerts the user if that content changes over a duration. This application is part of an experiment series developed by [Asad Mansoor](http://www.asadmansoor.com).
 
+## Introduction
+
 ### Motivation
 
-Textbooks are heavy and expensive, such that they can be replaced by online resources that are provided by the instructor or publisher of the textbook. Although these resources can be a good guide, but cannot be guaranteed to provide full insight as the textbook. So when exam season rolled in, I made the quick move and decided to check out a copy of the textbook from the campus library. However, the problem was that it would always be checked out and constantly checking the catalogue would be a painful experience.
+Textbooks are heavy and expensive, such that they can be replaced by online resources that are provided by the instructor or publisher of the textbook. Although these resources can be a good guide, but cannot be guaranteed to provide full insight as the textbook. So when exam season rolled in, I made the quick move and decided to check out a copy of the textbook from the campus library. However, the textbook would always be checked out and constantly checking would be a painful experience.
 
 <img src="Assets/checkedout_problem.png"/> 
 
@@ -14,7 +16,7 @@ The ideal solution is to outsource the process of checking whether the textbook 
 
 ### Reference
 
-The following project is further referenced in a blog plot highlighting the motivation, requirements and design decision in more detail. Please check out [Automated Status Checker: Experiment #1 - Web Automation](https://medium.com/@asadmansoor/automated-status-checker-111dd635b776#.ppyh708c9)
+The following project is referenced in a blog post highlighting the motivation, requirements and design decisions in more detail. Please check out [Automated Status Checker: Experiment #1 - Web Automation](https://medium.com/@asadmansoor/automated-status-checker-111dd635b776#.ppyh708c9)
 
 ## Usage
 
@@ -25,10 +27,10 @@ The following project is further referenced in a blog plot highlighting the moti
 * [Maven](http://maven.apache.org/install.html)
 * [Selenium Standalone Server](http://www.seleniumhq.org/download/)
 
-Set Maven as an Environment variable:
+Set Maven as an environment variable:
 
 * Add path to .bash_profile. More information [here](http://stackoverflow.com/a/21326657)
-* Check by typing 'mvn -version' in Terminal
+* Verify by typing 'mvn -version' in Terminal
 
 ### Installation
 
@@ -46,12 +48,12 @@ Move the project to the Applications folder
 <img src="Assets/move_to_applications.png"/> 
 
 
-To START the test case:
+To *START* the test case:
 
 * Navigate into the FlareApp and Run INSTALL.sh
-..* This will schedule the run.sh to run multiple times a day (Apple may require your password)
+  * This will schedule the run.sh to run multiple times a day (Apple may require your password)
 
-To STOP the test case:
+To *STOP* the test case:
 * Navigate into the FlareApp and Run UNINSTALL.sh
 
 ### Expected Behaviour
@@ -64,5 +66,5 @@ During the selected times, the run.sh will be executed and the following behavio
 
 When the textbook is available, the following Terminal message will be prompted to alert the user. In addition, the web page will remain open for the user to verify that the book is available. If a fail was asserted, then the terminal and web page will close automatically.
 
-<img src="Assets/results_successfull.png"/> 
+<img src="Assets/result_successful.png"/> 
 
